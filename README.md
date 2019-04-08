@@ -20,6 +20,9 @@
 
    docker run -it --rm -p 8888:8888 -v $(log directory on host):/tf/notebooks/logs create_workshop
 
+   visit: http://localhost:8888
 3. Run Tensorboard
 
    docker run -it --rm -p 6006:6006 -v $(log directory on host):/tf/notebooks/logs create_workshop tensorboard --logdir=/tf/notebooks/logs
+   
+   visit: http://localhost:6006
